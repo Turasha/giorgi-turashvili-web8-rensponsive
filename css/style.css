@@ -1,0 +1,119 @@
+.header-div{
+    height: 96px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 32px 17px 32px;
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    width: 328px;
+    height: 20px;
+   
+}
+.ul-edit{
+    width: 328px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    size: 16px;
+    font-weight: 500;
+    color: (0, 0, 0, 1);
+}
+.action{
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-action{
+    color: rgba(243, 243, 243, 1);
+    font-weight: 700;
+    font-size: 16px;
+}
+/* section1 */
+.main-div-1{
+    width: 1440px;
+    height: 556px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section1-info{
+    width: 490px;
+    height: 288px;
+}
+.section1-p1-div{
+    width: 490px;
+    height: 200px;
+}
+.section1-p1{
+    font-size: 56px;
+    font-weight: 900px;
+}
+.section1-p2{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: 24px;
+}
+.section1-p2-div{
+    display: flex;
+    width: 490px;
+    height: 40px;
+    align-items: center;
+    margin-top: 40px;
+}
+.action-info{
+    margin-left: 20px;
+    width: 236px;
+    height: 40px;
+}
+.section1-img{
+    height: 428px;
+    border-radius: 12px;
+}
+/* section 2 */
+.main-div-2{
+    width: 1440px;
+    height: 256px;
+    margin: 0 auto;
+    background-color: rgba(243, 243, 243, 1);
+    display: flex;
+    padding: 64px 150px 64px 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section2-info{
+    width: 360px;
+    height: 128px;
+}
+.circle-p{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom:16px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+.circle-in-p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.section2-p2{
+    width: 360px;
+    height: 72px;
+}
