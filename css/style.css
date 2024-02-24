@@ -300,3 +300,41 @@
         width: 100%;
     }
 }
+
+/* footer */
+.footer-bg{
+    background-color: black;
+    padding: 96px 0;
+}
+.footer-main{
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.footer-info h6{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.footer-ul{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-info{
+    width: 228px;
+}
+.footer-info p{
+    color: rgba(255, 255, 255, 1);
+
+}
+@media(max-width:1024px){
+    .last-div{
+        display: none;
+    }
+}
